@@ -16,10 +16,11 @@ body {
 
 .play {
 	display: flex;
+	margin-bottom: 3rem;
 }
 
 .play-box {
-	padding: 3rem;
+	padding: 1rem 3rem 1rem 3rem;
 }
 
 .result {
@@ -48,4 +49,9 @@ body {
 
 .btn-play:hover {
 	background-color: rgb(43, 188, 74);
+}
+
+.total {
+	display: block;
+	font-weight: bold;
 }
