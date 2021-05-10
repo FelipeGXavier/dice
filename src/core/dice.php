@@ -8,7 +8,7 @@ function getCurrentUrl() {
   return $protocol . $server . $port;
 }
 
-function generateRandomNumbers($start = 1, $end = 6, $size = 6) {
+function generateRandomNumbers($start = 1, $end = 6, $size = 4) {
 	$result = [];
 	for($i = 0; $i < $size; $i++) {
 		$result[] = rand($start, $end);

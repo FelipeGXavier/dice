@@ -13,9 +13,9 @@
 <?php
 
 $playerRolls = [$_GET['playerRoll1'], $_GET['playerRoll2']];
-$playerTotal = (int) $playerRolls[0] + (int) $playerRolls[0];
+$playerTotal = (int) $playerRolls[0] + (int) $playerRolls[1];
 $computerRolls = [$_GET['computerRoll1'], $_GET['computerRoll2']];
-$computerTotal = (int) $computerRolls[0] + (int) $computerRolls[0];
+$computerTotal = (int) $computerRolls[0] + (int) $computerRolls[1];
 
 $winnerMessage = "O vencedor é o %s";
 if ($playerTotal > $computerTotal) {
